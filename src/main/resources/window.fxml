@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="code.Window">
+   <Label layoutX="20.0" layoutY="80.0" text="USD">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label layoutX="20.0" layoutY="50.0" text="EUR">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label layoutX="20.0" layoutY="110.0" text="YNDX">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label layoutX="20.0" layoutY="140.0" text="SBER">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label layoutX="20.0" layoutY="170.0" text="OGZPY">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label layoutX="20.0" layoutY="200.0" text="AAPL">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label layoutX="24.0" layoutY="14.0" prefHeight="20.0" prefWidth="151.0" text="Current Exchange Rates">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Button fx:id="update_button" layoutX="72.0" layoutY="260.0" mnemonicParsing="false" onAction="#update"
+           text="Update"/>
+   <Label fx:id="eur_data" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="150.0" layoutY="80.0" text="USD"
+          textAlignment="CENTER">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label fx:id="usd_data" alignment="CENTER_RIGHT" contentDisplay="BOTTOM" layoutX="151.0" layoutY="50.0" text="EUR"
+          textAlignment="RIGHT">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label fx:id="yndx_data" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="145.0" layoutY="110.0" text="YNDX">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label fx:id="sber_data" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="147.0" layoutY="140.0" text="SBER">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label fx:id="ogzpy_data" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="141.0" layoutY="170.0"
+          text="OGZPY">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label fx:id="aapl_data" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="147.0" layoutY="200.0" text="AAPL">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+</AnchorPane>
